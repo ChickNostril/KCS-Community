@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin : 0 auto;
+}
+.title {
+    text-align: center;
+}
+.title > h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: center;
+}
+.title > h3 > span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: center;
+}
+.write {
+    display: flex;
+    justify-content: right;
+}
+.write > button {
+    width: 25%;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #bfa1ff;
+    margin-bottom: 15px;
+    border: none;
+}

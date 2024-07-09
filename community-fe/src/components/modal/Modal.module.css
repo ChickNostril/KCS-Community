@@ -1,0 +1,73 @@
+/** modal **/
+.modalWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+    left: 41%;
+    width: 350px;
+    height: 200px;
+    background-color: #eeeeee;
+    border-radius: 12px; 
+}
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.modalMsg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modalMsg > p {
+    margin: 0 0 15px 0;
+}
+.question {
+    font-weight: 700;
+    font-size: 20px;
+}
+.notice {
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 모달 버튼 스타일 */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+.cancelBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #242424;
+    color: #FFFFFF;
+}
+.confirmBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #c4a5fb;
+    color: #000000;
+}
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}

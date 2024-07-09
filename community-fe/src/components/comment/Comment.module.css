@@ -1,0 +1,25 @@
+.replyCard {
+    width: 600px;
+}
+.replyCard > form > textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0 26px 0;
+    box-sizing: border-box;
+    margin: 16px 0 0 0;
+    border: none;
+    border-bottom: solid 2px rgb(172, 172, 172);
+}
+.post {
+    width: 25%;
+    height: 50px;
+    padding: 15px 0 15px 0;
+    margin: 16px 0 0 450px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #bfa1ff;
+    border: none;
+    display: flex;
+    justify-content: center;
+}

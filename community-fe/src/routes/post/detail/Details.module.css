@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 640px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align : center;
+    margin : 0 auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+    border-bottom: solid 2px rgb(172, 172, 172);
+}
+.title > h3 {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.writer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.writer > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 10px;
+    object-fit: contain;
+}
+.writer > p {
+    font-size: 15px;
+    padding-left: 20px;
+}
+.writer > span {
+    font-size: 15px;
+    padding-left: 20px;
+    margin: 15px 0;
+}
+.buttons {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+.buttons > button {
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0 8px 0 0;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cont > image {
+    width: 100%;
+    padding: 5px 0 15px 0;
+}
+.cont > p {
+    font-size: 20px;
+    word-wrap: break-word;
+    height: auto;
+    border: none;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.views {
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px;
+    padding: 15px 0 15px 0;
+    margin: 0 15px;
+    width: 20%;
+} 
+.views > p {
+    text-align: center;
+    margin: 0;
+}

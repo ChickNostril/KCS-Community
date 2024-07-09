@@ -1,0 +1,53 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 0px 15px;
+    margin: 0 0 15px 0;
+}
+.writer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px 10px 15px;
+  }
+.writer > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 15px;
+  }
+.writer > p {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 15px;
+}
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.info > p {
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 90px;
+}
+.info > textarea {
+    width: 75%;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 0 26px 0;
+    border: none;
+}
+.buttons {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.buttons > button {
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0 8px 0 0;
+}
